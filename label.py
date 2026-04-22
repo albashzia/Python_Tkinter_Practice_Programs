@@ -8,7 +8,9 @@ label = Label(window,
               fg='green',
               bg='black',
               relief=RAISED,
-              bd=10)
+              bd=10,
+              padx=20,
+              pady=20)
 
 label.place(x=0,y=0)
 #label.pack()
