@@ -7,4 +7,6 @@ window.title("First Frame ")
 icon = PhotoImage(file='pic.png')
 window.iconphoto(True,icon)
 
+window.config(background="black")
+
 window.mainloop()
