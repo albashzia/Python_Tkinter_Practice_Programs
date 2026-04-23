@@ -1,4 +1,6 @@
 from tkinter import *
+from tkinter.constants import ACTIVE
+
 
 def click():
     print("You clicked the button!")
@@ -16,7 +18,8 @@ button = Button(
                 fg='green',
                 bg='black',
                 activeforeground='green',
-                activebackground='black'
+                activebackground='black',
+                state=ACTIVE
                 )
 button.pack()
 
