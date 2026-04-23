@@ -5,7 +5,8 @@ window = Tk()
 window.geometry("300x200")
 window.title("Buttons")
 
-button = Button(window)
+button = Button(window,
+                text="Click Me!")
 button.pack()
 
 window.mainloop()
