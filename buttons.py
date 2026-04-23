@@ -1,9 +1,11 @@
 from tkinter import *
 from tkinter.constants import ACTIVE
 
-
+count = 0
 def click():
-    print("You clicked the button!")
+    global count
+    count+=1
+    print(count)
 
 window = Tk()
 
