@@ -12,7 +12,8 @@ def backspace():
     entry.delete(len(entry.get())-1,END)
 
 entry = Entry(window,
-              font=('Arial',50))
+              font=('Arial',50),
+              fg='Green')
 entry.pack(side=LEFT)
 
 
