@@ -15,6 +15,8 @@ entry = Entry(window,
               font=('Arial',50),
               fg='Green',
               bg='Black')
+
+entry.insert(0,'Type Here')
 entry.pack(side=LEFT)
 
 
