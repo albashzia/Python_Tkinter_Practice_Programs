@@ -16,4 +16,9 @@ submit_button = Button(window,
 
 submit_button.pack(side=RIGHT)
 
+delete_button = Button(window,
+                       text="Delete")
+
+delete_button.pack(side=RIGHT)
+
 window.mainloop()
