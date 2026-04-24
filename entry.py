@@ -13,7 +13,8 @@ def backspace():
 
 entry = Entry(window,
               font=('Arial',50),
-              fg='Green')
+              fg='Green',
+              bg='Black')
 entry.pack(side=LEFT)
 
 
