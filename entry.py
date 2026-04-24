@@ -4,6 +4,7 @@ window = Tk()
 def submit():
     user_input = entry.get()
     print(user_input)
+    entry.config(state=DISABLED)
 
 def delete():
     entry.delete(0,END)
