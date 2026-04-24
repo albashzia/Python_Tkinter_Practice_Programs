@@ -25,4 +25,9 @@ delete_button = Button(window,
 
 delete_button.pack(side=RIGHT)
 
+backspace_button = Button(window,
+                       text="Backspace")
+
+backspace_button.pack(side=RIGHT)
+
 window.mainloop()
