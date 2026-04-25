@@ -2,7 +2,8 @@ from tkinter import *
 
 window = Tk()
 
-check_button = Checkbutton(window)
+check_button = Checkbutton(window,
+                           text="I agree to something")
 
 
 check_button.pack()
