@@ -18,7 +18,9 @@ check_button = Checkbutton(window,
                            command=display,
                            font=('Arial',25),
                            fg='green',
-                           bg='black')
+                           bg='black',
+                           activeforeground='green',
+                           activebackground='black')
 
 
 check_button.pack()
