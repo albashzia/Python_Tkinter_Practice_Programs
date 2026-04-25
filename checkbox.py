@@ -20,7 +20,9 @@ check_button = Checkbutton(window,
                            fg='green',
                            bg='black',
                            activeforeground='green',
-                           activebackground='black')
+                           activebackground='black',
+                           padx=20,
+                           pady=20)
 
 
 check_button.pack()
