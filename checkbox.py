@@ -1,20 +1,20 @@
 from tkinter import *
 
 def display():
-    if(x.get()==1):
+    if(x.get()):
         print("You agree")
     else:
         print("You disagree")
 
 window = Tk()
 
-x = IntVar()
+x = BooleanVar()
 
 check_button = Checkbutton(window,
                            text="I agree to something",
                            variable=x,
-                           onvalue=1,
-                           offvalue=0,
+                           onvalue=True,
+                           offvalue=False,
                            command=display,
                            font=('Arial',25),
                            fg='green',
