@@ -16,7 +16,9 @@ check_button = Checkbutton(window,
                            onvalue=1,
                            offvalue=0,
                            command=display,
-                           font=('Arial',25))
+                           font=('Arial',25),
+                           fg='green',
+                           bg='black')
 
 
 check_button.pack()
