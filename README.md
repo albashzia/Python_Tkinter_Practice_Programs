@@ -1,5 +1,5 @@
-<h1>Python Tkinter Practice Programs</h1>
-<h2>Overview</h2>
-<h2>Structure</h2>
-<h2>Purpose</h2>
-<h2>License</h2>
+<h1 align= "center">Python Tkinter Practice Programs</h1>
+<h2 align= "center">Overview</h2>
+<h2 align= "center">Structure</h2>
+<h2 align= "center">Purpose</h2>
+<h2 align= "center">License</h2>
