@@ -18,8 +18,8 @@ def order():
         print("You ordered pizza")
     elif (x.get()==1):
         print("You ordered burger")
-    elif (x.get()==2);
-    print("You ordered hotdog")
+    elif (x.get()==2):
+        print("You ordered hotdog")
 
 for index in range(len(food)):
     radio_button = Radiobutton(window,
@@ -32,7 +32,8 @@ for index in range(len(food)):
                                image= foodImages[index],
                                compound='left',
                                indicatoron=0,
-                               width=275
+                               width=275,
+                               command=order
                                )
     radio_button.pack(anchor=W)
 
