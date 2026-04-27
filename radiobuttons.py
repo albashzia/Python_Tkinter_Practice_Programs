@@ -6,6 +6,8 @@ pizza = PhotoImage('pizza_40px.png')
 burger = PhotoImage('burger_40px.png')
 hotdog = PhotoImage('hotdog_40px.png')
 
+foodImages = [pizza,burger,hotdog]
+
 window = Tk()
 
 x = IntVar()
