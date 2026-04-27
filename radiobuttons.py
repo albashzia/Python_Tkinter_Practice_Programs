@@ -11,6 +11,6 @@ for index in range(len(food)):
                                text=food[index],
                                variable=x,
                                value=index)
-    radio_button.pack()
+    radio_button.pack(anchor=W)
 
 window.mainloop()
