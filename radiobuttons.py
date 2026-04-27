@@ -22,7 +22,9 @@ for index in range(len(food)):
                                pady=15,
                                font=('Impact',30),
                                image= foodImages[index],
-                               compound='left'
+                               compound='left',
+                               indicatoron=0,
+                               width=275
                                )
     radio_button.pack(anchor=W)
 
