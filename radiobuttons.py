@@ -12,7 +12,9 @@ for index in range(len(food)):
                                variable=x,
                                value=index,
                                padx=25,
-                               pady=15)
+                               pady=15,
+                               font=('Impact',30)
+                               )
     radio_button.pack(anchor=W)
 
 window.mainloop()
