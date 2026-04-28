@@ -8,10 +8,10 @@ window = Tk()
 scale = Scale(window,
               from_=100,
               to=0,
-              length=600,
+              length=500,
               orient=VERTICAL,
-              tickinterval=20,
-              font=('Consolas',20))
+              tickinterval=10,
+              font=('Consolas',10))
 
 scale.pack()
 button = Button(window,
