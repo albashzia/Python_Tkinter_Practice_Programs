@@ -1,5 +1,8 @@
 from tkinter import *
 
+def submit():
+    print("The temperature is "+str(scale.get())+" degree Celsius")
+
 window = Tk()
 
 scale = Scale(window,
