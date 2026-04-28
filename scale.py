@@ -13,7 +13,8 @@ scale = Scale(window,
               tickinterval=10,
               font=('Consolas',10),
               showvalue=0,
-              resolution=5)
+              resolution=5,
+              troughcolor='#69EAEE')
 
 scale.set(50)
 scale.pack()
