@@ -7,7 +7,9 @@ window = Tk()
 
 scale = Scale(window,
               from_=100,
-              to=0)
+              to=0,
+              length=600,
+              orient=VERTICAL)
 
 scale.pack()
 button = Button(window,
