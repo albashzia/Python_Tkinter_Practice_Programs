@@ -7,4 +7,8 @@ scale = Scale(window,
               to=0)
 
 scale.pack()
+button = Button(window)
+
+button.pack()
+
 window.mainloop()
