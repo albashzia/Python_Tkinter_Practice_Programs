@@ -15,6 +15,7 @@ scale = Scale(window,
               showvalue=0,
               resolution=5)
 
+scale.set(50)
 scale.pack()
 button = Button(window,
                 text="Submit",
