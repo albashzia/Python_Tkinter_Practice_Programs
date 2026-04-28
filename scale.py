@@ -11,7 +11,8 @@ scale = Scale(window,
 
 scale.pack()
 button = Button(window,
-                text="Submit")
+                text="Submit",
+                command=submit)
 
 button.pack()
 
