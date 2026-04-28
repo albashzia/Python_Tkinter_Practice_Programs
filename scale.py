@@ -11,7 +11,9 @@ scale = Scale(window,
               length=500,
               orient=VERTICAL,
               tickinterval=10,
-              font=('Consolas',10))
+              font=('Consolas',10),
+              showvalue=0,
+              resolution=5)
 
 scale.pack()
 button = Button(window,
