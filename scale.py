@@ -14,7 +14,9 @@ scale = Scale(window,
               font=('Consolas',10),
               showvalue=0,
               resolution=5,
-              troughcolor='#69EAEE')
+              troughcolor='#69EAEE',
+              fg='#FF1C00',
+              bg='#111111')
 
 scale.set(50)
 scale.pack()
