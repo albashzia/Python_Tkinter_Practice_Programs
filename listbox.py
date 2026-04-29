@@ -2,7 +2,9 @@ from tkinter import *
 
 window = Tk()
 
-listbox = Listbox(window)
+listbox = Listbox(window,
+                  bg='#F7FFDE',
+                  font=('Constantia',30))
 listbox.pack()
 
 listbox.insert(0,"Pizza")
