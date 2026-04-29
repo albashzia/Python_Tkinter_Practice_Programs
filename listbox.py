@@ -2,6 +2,11 @@ from tkinter import *
 
 def submit():
     print(listbox.get(listbox.curselection()))
+
+def add():
+    listbox.insert(listbox.size(),entry.get())
+    listbox.config(height=listbox.size())
+
 window = Tk()
 
 listbox = Listbox(window,
@@ -20,7 +25,8 @@ entry = Entry(window)
 entry.pack()
 
 add_button = Button(window,
-                text="Add")
+                text="Add",
+                command=add)
 add_button.pack()
 
 submit_button = Button(window,
