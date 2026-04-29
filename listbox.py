@@ -1,5 +1,7 @@
 from tkinter import *
 
+def submit():
+    print(listbox.get(listbox.curselection()))
 window = Tk()
 
 listbox = Listbox(window,
@@ -15,7 +17,8 @@ listbox.insert(4,"Salad")
 listbox.config(height=listbox.size())
 
 submit_button = Button(window,
-                text="Submit")
+                text="Submit",
+                command=submit)
 submit_button.pack()
 
 window.mainloop()
