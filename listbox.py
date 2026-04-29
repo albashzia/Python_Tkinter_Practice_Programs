@@ -7,6 +7,10 @@ def add():
     listbox.insert(listbox.size(),entry.get())
     listbox.config(height=listbox.size())
 
+def delete():
+    listbox.delete(listbox.curselection())
+    listbox.config(height=listbox.size())
+
 window = Tk()
 
 listbox = Listbox(window,
@@ -28,6 +32,11 @@ add_button = Button(window,
                 text="Add",
                 command=add)
 add_button.pack()
+
+delete_button = Button(window,
+                text="delete",
+                command=delete)
+delete_button.pack()
 
 submit_button = Button(window,
                 text="Submit",
