@@ -19,6 +19,10 @@ listbox.config(height=listbox.size())
 entry = Entry(window)
 entry.pack()
 
+add_button = Button(window,
+                text="Add")
+add_button.pack()
+
 submit_button = Button(window,
                 text="Submit",
                 command=submit)
