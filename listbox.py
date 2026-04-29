@@ -7,12 +7,15 @@ listbox = Listbox(window,
                   font=('Constantia',30),
                   width = 12)
 listbox.pack()
-
 listbox.insert(0,"Pizza")
 listbox.insert(1,"Pasta")
 listbox.insert(2,"Garlic Bread")
 listbox.insert(3,"Soup")
 listbox.insert(4,"Salad")
 listbox.config(height=listbox.size())
+
+submit_button = Button(window,
+                text="Submit")
+submit_button.pack()
 
 window.mainloop()
