@@ -16,6 +16,9 @@ listbox.insert(3,"Soup")
 listbox.insert(4,"Salad")
 listbox.config(height=listbox.size())
 
+entry = Entry(window)
+entry.pack()
+
 submit_button = Button(window,
                 text="Submit",
                 command=submit)
