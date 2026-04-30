@@ -1,7 +1,13 @@
 from tkinter import *
 
 def submit():
-    print(listbox.get(listbox.curselection()))
+    food=[]
+    for index in listbox.curselection():
+        food.insert(index,listbox.get(index))
+
+    print("You have ordered:")
+    for foods in food:
+        print(foods)
 
 def add():
     listbox.insert(listbox.size(),entry.get())
