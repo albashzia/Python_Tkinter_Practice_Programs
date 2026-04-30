@@ -14,7 +14,8 @@ def add():
     listbox.config(height=listbox.size())
 
 def delete():
-    listbox.delete(listbox.curselection())
+    for index in reversed(listbox.curselection()):
+        listbox.delete(index)
     listbox.config(height=listbox.size())
 
 window = Tk()
