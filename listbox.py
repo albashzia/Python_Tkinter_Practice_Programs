@@ -16,7 +16,8 @@ window = Tk()
 listbox = Listbox(window,
                   bg='#F7FFDE',
                   font=('Constantia',30),
-                  width = 12)
+                  width = 12,
+                  selectmode=MULTIPLE)
 listbox.pack()
 listbox.insert(0,"Pizza")
 listbox.insert(1,"Pasta")
