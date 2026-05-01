@@ -3,7 +3,8 @@ from tkinter import messagebox
 
 def click():
     #messagebox.showinfo("Info Box", "This is an Info Box")
-    messagebox.showwarning("Warning Box", "This is a warning")
+    #messagebox.showwarning("Warning Box", "This is a warning")
+    messagebox.showerror("Error Box", "This is error")
 
 window = Tk()
 window.title("Message Box")
