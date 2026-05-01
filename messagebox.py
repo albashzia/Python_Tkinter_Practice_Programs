@@ -17,7 +17,14 @@ def click():
     #     print("You like avocadoes :) ")
     # else:
     #     print("You don't like avocadoes :(")
-    print(messagebox.askquestion("Ask Question","Do you code?"))
+    #print(messagebox.askquestion("Ask Question","Do you code?"))
+    answer =  (messagebox.askyesnocancel("Ask Yes/No/Cancel", " Do you like to code?"))
+    if(answer==True):
+        print("You like to code")
+    elif (answer==False):
+        print("You don't like to code")
+    else:
+        print("You don't code")
 
 window = Tk()
 window.title("Message Box")
