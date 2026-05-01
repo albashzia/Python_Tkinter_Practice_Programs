@@ -13,10 +13,11 @@ def click():
     #     print("You Retried")
     # else:
     #     print("You canceled")
-    if (messagebox.askyesno("Ask Yes/No", "Do you like Avocadoes?")):
-        print("You like avocadoes :) ")
-    else:
-        print("You don't like avocadoes :(")
+    # if (messagebox.askyesno("Ask Yes/No", "Do you like Avocadoes?")):
+    #     print("You like avocadoes :) ")
+    # else:
+    #     print("You don't like avocadoes :(")
+    print(messagebox.askquestion("Ask Question","Do you code?"))
 
 window = Tk()
 window.title("Message Box")
