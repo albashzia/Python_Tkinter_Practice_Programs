@@ -9,11 +9,14 @@ def click():
     #     print("You selected it")
     # else:
     #     print("You did not select it")
-    if(messagebox.askretrycancel("Ask Retry/Cancel","Do you want to retry?")):
-        print("You Retried")
+    # if(messagebox.askretrycancel("Ask Retry/Cancel","Do you want to retry?")):
+    #     print("You Retried")
+    # else:
+    #     print("You canceled")
+    if (messagebox.askyesno("Ask Yes/No", "Do you like Avocadoes?")):
+        print("You like avocadoes :) ")
     else:
-        print("You canceled")
-
+        print("You don't like avocadoes :(")
 
 window = Tk()
 window.title("Message Box")
