@@ -2,7 +2,8 @@ from tkinter import *
 from tkinter import messagebox
 
 def click():
-    messagebox.showinfo("Info Box", "This is an Info Box")
+    #messagebox.showinfo("Info Box", "This is an Info Box")
+    messagebox.showwarning("Warning Box", "This is a warning")
 
 window = Tk()
 window.title("Message Box")
