@@ -5,10 +5,15 @@ def click():
     #messagebox.showinfo("Info Box", "This is an Info Box")
     #messagebox.showwarning("Warning Box", "This is a warning")
     #messagebox.showerror("Error Box", "This is error")
-    if(messagebox.askokcancel("Ask Okay/Cancel","Do you want to select it?")):
-        print("You selected it")
+    # if(messagebox.askokcancel("Ask Okay/Cancel","Do you want to select it?")):
+    #     print("You selected it")
+    # else:
+    #     print("You did not select it")
+    if(messagebox.askretrycancel("Ask Retry/Cancel","Do you want to retry?")):
+        print("You Retried")
     else:
-        print("You did not select it")
+        print("You canceled")
+
 
 window = Tk()
 window.title("Message Box")
