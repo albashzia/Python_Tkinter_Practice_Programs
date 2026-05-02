@@ -3,6 +3,7 @@ from tkinter import colorchooser
 def click():
     color = colorchooser.askcolor()
     color_hex = color[1]
+    window.config(bg=color_hex)
 
 
 window = Tk()
