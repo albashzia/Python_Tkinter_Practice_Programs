@@ -1,7 +1,9 @@
 from tkinter import *
 from tkinter import colorchooser
 def click():
-    print("Hello")
+    color = colorchooser.askcolor()
+
+
 window = Tk()
 window.geometry("420x420")
 
