@@ -1,7 +1,9 @@
 from tkinter import *
 from tkinter import filedialog
 def open_file():
-    file_path = filedialog.askopenfilename()
+    file_path = filedialog.askopenfilename(title="Select a File",
+                                           filetypes=(('Text','*.txt'),
+                                                      ("All File","*.*")))
     file = open(file_path,'r')
     print(file.read())
     file.close()
