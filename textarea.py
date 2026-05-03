@@ -5,13 +5,13 @@ def submit():
     print(input)
 
 window = Tk()
-
-text = Text(window)
-
+text = Text(window,
+            bg="light yellow")
 text.pack()
 
 button = Button(window,
                 text="Submit",
                 command=submit)
 button.pack()
+
 window.mainloop()
