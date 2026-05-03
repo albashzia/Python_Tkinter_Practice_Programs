@@ -10,7 +10,9 @@ text = Text(window,
             font=('Ink Free',25),
             height=10,
             width=20,
-            fg='Purple')
+            fg='Purple',
+            padx=20,
+            pady=20)
 text.pack()
 
 button = Button(window,
