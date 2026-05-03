@@ -6,7 +6,10 @@ def submit():
 
 window = Tk()
 text = Text(window,
-            bg="light yellow")
+            bg="light yellow",
+            font=('Ink Free',25),
+            height=10,
+            width=20)
 text.pack()
 
 button = Button(window,
