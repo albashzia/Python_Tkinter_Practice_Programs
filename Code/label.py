@@ -3,7 +3,7 @@ from tkinter import *
 window = Tk()
 window.geometry("1000x1000")
 
-photo = PhotoImage(file='python.png')
+photo = PhotoImage(file='../Icons/python.png')
 
 label = Label(window,
               text="Hello World",

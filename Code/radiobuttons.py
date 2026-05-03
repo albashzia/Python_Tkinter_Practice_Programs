@@ -5,9 +5,9 @@ food = ["pizza","hamburger","hotdog"]
 window = Tk()
 
 
-pizzaImage = PhotoImage(file='pizza_40px.png')
-burgerImage = PhotoImage(file='burger_40px.png')
-hotdogImage = PhotoImage(file='hotdog_40px.png')
+pizzaImage = PhotoImage(file='../Icons/pizza_40px.png')
+burgerImage = PhotoImage(file='../Icons/burger_40px.png')
+hotdogImage = PhotoImage(file='../Icons/hotdog_40px.png')
 
 foodImages = [pizzaImage,burgerImage,hotdogImage]
 
