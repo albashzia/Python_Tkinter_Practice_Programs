@@ -9,7 +9,8 @@ def open_file():
 window = Tk()
 window.geometry("150x100")
 button = Button(window,
-                text="Open File")
+                text="Open File",
+                command=open_file)
 
 button.pack()
 window.mainloop()
