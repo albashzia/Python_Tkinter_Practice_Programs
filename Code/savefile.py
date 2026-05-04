@@ -3,6 +3,9 @@ from tkinter import filedialog
 
 def save_file():
     file = filedialog.asksaveasfile()
+    file_text = text.get("1.0",END)
+    file.write(file_text)
+    file.close()
 
 window = Tk()
 
