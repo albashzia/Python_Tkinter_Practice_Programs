@@ -7,6 +7,9 @@ def open():
 def save():
     print("You saved a file")
 
+def cut():
+    print("You cutted some text")
+
 menubar = Menu(window)
 window.config(menu=menubar)
 
@@ -18,7 +21,7 @@ fileMenu.add_command(label="Exit", command=quit)
 
 edit_menu = Menu(menubar)
 menubar.add_cascade(label="Edit",menu=edit_menu)
-edit_menu.add_command(label="Cut")
+edit_menu.add_command(label="Cut",command=cut)
 edit_menu.add_command(label="Copy")
 edit_menu.add_command(label="Pasted")
 
