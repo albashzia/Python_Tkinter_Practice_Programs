@@ -17,6 +17,9 @@ fileMenu.add_command(label="Save",command=save)
 fileMenu.add_command(label="Exit", command=quit)
 
 edit_menu = Menu(menubar)
-menubar.add_cascade(label="Edit",menu=fileMenu)
+menubar.add_cascade(label="Edit",menu=edit_menu)
+edit_menu.add_command(label="Cut")
+edit_menu.add_command(label="Copy")
+edit_menu.add_command(label="Pasted")
 
 window.mainloop()
