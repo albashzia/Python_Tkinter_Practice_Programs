@@ -4,10 +4,10 @@ window = Tk()
 
 frame = Frame(window)
 frame.pack()
-Button(window,text="W",font=("Consolas",25),width=3).pack(side=TOP)
-Button(window,text="A",font=("Consolas",25),width=3).pack(side=LEFT)
-Button(window,text="S",font=("Consolas",25),width=3).pack(side=LEFT)
-Button(window,text="D",font=("Consolas",25),width=3).pack(side=LEFT)
+Button(frame,text="W",font=("Consolas",25),width=3).pack(side=TOP)
+Button(frame,text="A",font=("Consolas",25),width=3).pack(side=LEFT)
+Button(frame,text="S",font=("Consolas",25),width=3).pack(side=LEFT)
+Button(frame,text="D",font=("Consolas",25),width=3).pack(side=LEFT)
 
 
 window.mainloop()
