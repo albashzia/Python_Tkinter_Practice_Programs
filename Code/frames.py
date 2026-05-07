@@ -2,6 +2,8 @@ from tkinter import *
 
 window = Tk()
 
+frame = Frame(window)
+frame.pack()
 Button(window,text="W",font=("Consolas",25),width=3).pack(side=TOP)
 Button(window,text="A",font=("Consolas",25),width=3).pack(side=LEFT)
 Button(window,text="S",font=("Consolas",25),width=3).pack(side=LEFT)
