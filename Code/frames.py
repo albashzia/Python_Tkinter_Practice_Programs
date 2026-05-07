@@ -2,7 +2,7 @@ from tkinter import *
 
 window = Tk()
 
-frame = Frame(window,bg='Light Blue')
+frame = Frame(window,bg='Light Blue', bd = 7, relief=SUNKEN)
 frame.pack()
 Button(frame,text="W",font=("Consolas",25),width=3).pack(side=TOP)
 Button(frame,text="A",font=("Consolas",25),width=3).pack(side=LEFT)
