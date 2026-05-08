@@ -1,6 +1,8 @@
 from tkinter import *
 
 def create_window():
+    new_window = Tk()
+    window.destroy()
 
 window = Tk()
 
