@@ -11,4 +11,7 @@ notebook.add(tab1,text="Tab 1")
 notebook.add(tab2,text="Tab 2")
 notebook.pack()
 
+Label(tab1,text="Tab 1", width=50,height=25).pack()
+Label(tab2,text="Tab 2", width=50,height=25).pack()
+
 window.mainloop()
