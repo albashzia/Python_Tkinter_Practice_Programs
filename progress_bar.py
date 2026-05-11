@@ -15,11 +15,13 @@ def start():
 window = Tk()
 
 percent = StringVar()
+tasks = StringVar()
 
 bar = Progressbar(window,orient=HORIZONTAL,length=300)
 bar.pack(padx=10,pady=10)
 
 percent_label = Label(window,textvariable=percent).pack()
+tasks_label = Label(window,textvariable=tasks).pack()
 
 Button(window,text="Download", command=start).pack()
 
