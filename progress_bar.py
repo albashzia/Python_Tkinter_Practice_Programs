@@ -9,7 +9,7 @@ def start():
         time.sleep(1)
         bar['value']+=10
         x+=1
-        percent.set(str(int(x/tasks)*100)+"%")
+        percent.set(str(int((x/tasks)*100))+"%")
         task.set(str(x)+"/"+str(tasks)+" tasks completed")
         window.update_idletasks()
 
