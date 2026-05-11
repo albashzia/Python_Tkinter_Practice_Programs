@@ -13,7 +13,13 @@ def start():
 
 window = Tk()
 
+percent = StringVar()
+
 bar = Progressbar(window,orient=HORIZONTAL,length=300)
 bar.pack(padx=10,pady=10)
+
+percent_label = Label(window, textvariable=percent).pack()
+
 Button(window,text="Download", command=start).pack()
+
 window.mainloop()
