@@ -9,6 +9,7 @@ def start():
         time.sleep(1)
         bar['value']+=10
         x+=1
+        window.update_idletasks()
 
 window = Tk()
 
