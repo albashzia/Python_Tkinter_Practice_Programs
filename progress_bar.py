@@ -14,5 +14,5 @@ window = Tk()
 
 bar = Progressbar(window,orient=HORIZONTAL,length=300)
 bar.pack(padx=10,pady=10)
-Button(window,text="Download").pack()
+Button(window,text="Download", command=start).pack()
 window.mainloop()
