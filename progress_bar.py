@@ -9,6 +9,7 @@ def start():
         time.sleep(1)
         bar['value']+=10
         x+=1
+        percent.set(str(int(x/tasks)*100)+"%")
         window.update_idletasks()
 
 window = Tk()
@@ -18,7 +19,7 @@ percent = StringVar()
 bar = Progressbar(window,orient=HORIZONTAL,length=300)
 bar.pack(padx=10,pady=10)
 
-percent_label = Label(window, textvariable=percent).pack()
+percent_label = Label(window,textvariable=percent).pack()
 
 Button(window,text="Download", command=start).pack()
 
