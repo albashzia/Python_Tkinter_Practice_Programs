@@ -8,6 +8,7 @@ canvas = Canvas(window, height=500,width=500)
 
 # canvas.create_rectangle(100,100,300,300, fill='purple')
 
+canvas.create_polygon(250,0,500,500,0,500)
 canvas.pack()
 
 window.mainloop()
