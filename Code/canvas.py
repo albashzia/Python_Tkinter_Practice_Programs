@@ -11,6 +11,7 @@ canvas = Canvas(window, height=500,width=500)
 # triangle_points = [250,0,500,500,0,500]
 # canvas.create_polygon(triangle_points,fill='yellow', outline='black', width=5)
 
+canvas.create_arc(0,0,500,500)
 
 canvas.pack()
 
