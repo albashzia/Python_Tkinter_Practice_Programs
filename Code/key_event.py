@@ -5,4 +5,8 @@ def act(event):
 window = Tk()
 
 window.bind("<Key>", act)
+
+label = Label(window,"Helvetica", 100)
+label.pack()
+
 window.mainloop()
