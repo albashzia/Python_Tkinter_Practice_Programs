@@ -8,6 +8,7 @@ window = Tk()
 #window.bind("<Button-1>",act)
 #window.bind("<Button-3>",act)
 #window.bind("<ButtonRelease>",act)
-window.bind("<Enter>",act)
+#window.bind("<Enter>",act)
+window.bind("<Leave>",act)
 
 window.mainloop()
