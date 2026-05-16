@@ -1,7 +1,7 @@
 from tkinter import *
 
 def act(event):
-    print("Left key pressed")
+    print("Cursor Coordinates: "+str(event.x)+","+str(event.y))
 
 window = Tk()
 
