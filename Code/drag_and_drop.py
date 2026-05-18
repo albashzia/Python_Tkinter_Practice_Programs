@@ -20,4 +20,7 @@ label1.place(x=100,y=100)
 label.bind("<Button-1>",drag_start)
 label.bind("<B1-Motion>",drag_motion)
 
+label1.bind("<Button-1>",drag_start)
+label1.bind("<B1-Motion>",drag_motion)
+
 window.mainloop()
