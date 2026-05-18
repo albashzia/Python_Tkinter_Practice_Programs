@@ -4,6 +4,11 @@ def drag_start(event):
     label.startX = event.x
     label.startY = event.y
 
+def drag_motion(event):
+    x = label.winfo_x() - label.startX + event.x
+    y = label.winfo_y() - label.startY + event.y
+    label.place(x=x,y=y)
+
 window = Tk()
 
 label = Label(window,bg='red',width=10,height=5)
