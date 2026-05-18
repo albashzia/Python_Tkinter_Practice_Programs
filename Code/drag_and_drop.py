@@ -1,5 +1,9 @@
 from tkinter import *
 
+def drag_start(event):
+    label.startX = event.x
+    label.startY = event.y
+
 window = Tk()
 
 label = Label(window,bg='red',width=10,height=5)
