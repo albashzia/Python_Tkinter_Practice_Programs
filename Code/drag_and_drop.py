@@ -1,13 +1,15 @@
 from tkinter import *
 
 def drag_start(event):
-    label.startX = event.x
-    label.startY = event.y
+    widget = event.widget
+    widget.startX = event.x
+    widget.startY = event.y
 
 def drag_motion(event):
-    x = label.winfo_x() - label.startX + event.x
-    y = label.winfo_y() - label.startY + event.y
-    label.place(x=x,y=y)
+    widget = event.widget
+    x = widget.winfo_x() - widget.startX + event.x
+    y = widget.winfo_y() - widget.startY + event.y
+    widget.place(x=x,y=y)
 
 window = Tk()
 
