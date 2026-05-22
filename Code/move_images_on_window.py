@@ -24,4 +24,9 @@ window.bind("<s>",move_down)
 window.bind("<d>",move_right)
 window.bind("<a>",move_left)
 
+window.bind("<Up>",move_up)
+window.bind("<Down>",move_down)
+window.bind("<Right>",move_right)
+window.bind("<Left>",move_left)
+
 window.mainloop()
