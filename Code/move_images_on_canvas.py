@@ -1,5 +1,18 @@
 from tkinter import *
 
+def move_up(event):
+    canvas.move(carPic,0,-10)
+
+def move_down(event):
+    canvas.move(carPic, 0, 10)
+
+def move_left(event):
+    canvas.move(carPic, -10,0)
+
+def move_right(event):
+    canvas.move(carPic, 10, 0)
+
+
 window = Tk()
 
 window.bind("<w>",move_up)
