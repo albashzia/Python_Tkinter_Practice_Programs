@@ -20,6 +20,11 @@ window.bind("<s>",move_down)
 window.bind("<a>",move_left)
 window.bind("<d>",move_right)
 
+window.bind("<Up>",move_up)
+window.bind("<Down>",move_down)
+window.bind("<Left>",move_left)
+window.bind("<Right>",move_right)
+
 canvas = Canvas(window,width=300,height=300)
 canvas.pack()
 
