@@ -9,5 +9,8 @@ window = Tk()
 canvas = Canvas(window, width= WIDTH, height= HEIGHT)
 canvas.pack()
 
+background_image = PhotoImage(file="../Icons/space_background_500px.png")
+canvas_background = canvas.create_image(0,0,image=background_image,anchor=NW)
+
 
 window.mainloop()
