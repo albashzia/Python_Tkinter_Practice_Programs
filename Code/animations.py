@@ -4,6 +4,9 @@ import time
 WIDTH = 500
 HEIGHT = 500
 
+x_velocity = 1
+y_velocity = 1
+
 window = Tk()
 
 canvas = Canvas(window, width= WIDTH, height= HEIGHT)
