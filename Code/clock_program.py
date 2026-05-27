@@ -17,6 +17,8 @@ time_label.pack()
 day_label = Label(window,font=("Ink Free",25))
 day_label.pack()
 
+date_label = Label(window,font=("Ink Free",25))
+date_label.pack()
 
 update()
 
