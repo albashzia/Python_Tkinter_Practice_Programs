@@ -14,6 +14,8 @@ def update():
 
 window = Tk()
 
+window.title("Clock Program")
+
 time_label = Label(window,font=("Arial",50),bg="black",fg="green")
 time_label.pack()
 
