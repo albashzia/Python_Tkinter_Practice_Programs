@@ -16,6 +16,9 @@ window = Tk()
 
 window.title("Clock Program")
 
+clock_icon = PhotoImage(file="../Icons/clock_80px.png")
+window.iconphoto(True,clock_icon)
+
 time_label = Label(window,font=("Arial",50),bg="black",fg="green")
 time_label.pack()
 
