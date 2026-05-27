@@ -4,6 +4,7 @@ def update():
     time_string = strftime("%I:%M:%S %p")
     time_label.config(text=time_string)
 
+    window.after(1000, update)
 
 window = Tk()
 
