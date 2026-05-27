@@ -11,6 +11,10 @@ window = Tk()
 time_label = Label(window,font=("Arial",50),bg="black",fg="green")
 time_label.pack()
 
+day_label = Label(window,font=("Ink Free",25))
+day_label.pack()
+
+
 update()
 
 window.mainloop()
