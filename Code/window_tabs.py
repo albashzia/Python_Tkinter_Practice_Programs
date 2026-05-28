@@ -3,6 +3,8 @@ from tkinter import ttk
 
 window = Tk()
 
+window.title("Window Tabs")
+
 notebook = ttk.Notebook(window)
 
 tab1 = Frame(notebook)
